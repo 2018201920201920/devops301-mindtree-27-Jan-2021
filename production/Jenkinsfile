@@ -12,7 +12,7 @@ notify('Started')
 try {
 
 stage('Git-CheckOut') {
-  git branch: 'production', url: 'https://github.com/amitvashisttech/devops301-mindtree-27-Jan-2021.git'
+  git branch: 'master', url: 'https://github.com/2018201920201920/devops301-mindtree-27-Jan-2021.git'
 }
 
 stage('Download Package') {
